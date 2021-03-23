@@ -56,7 +56,7 @@ public class AuthenticationController {
                                           Errors errors, HttpServletRequest request,
                                           Model model) {
 
-        if (errors.hasErrors()) { // Do I need to add a generic validation-failure error message here?
+        if (errors.hasErrors()) {
             model.addAttribute("title", "Register");
             return "register";
         }

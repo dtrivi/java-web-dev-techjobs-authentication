@@ -1,6 +1,6 @@
 package org.launchcode.javawebdevtechjobsauthentication.models.dto;
 
-public class RegisterFormDTO extends LoginFormDTO { // Do I add fields from LoginFormDTO?
+public class RegisterFormDTO extends LoginFormDTO {
 
     private String verifyPassword;
 
